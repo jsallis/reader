@@ -1,5 +1,5 @@
-import {ThemeDefinition} from './types.common';
-export const THEMES: {[theme: string]: ThemeDefinition} = {
+import { ThemeDefinition } from './types.common';
+export const THEMES: { [theme: string]: ThemeDefinition } = {
   PROTOLIVIA: {
     alpha: {
       c: '#505557',
@@ -82,6 +82,20 @@ export const THEMES: {[theme: string]: ThemeDefinition} = {
     accent: {
       t: '#c20018',
       c: '#cfa174',
+    },
+  },
+  BLACK_ON_WHITE: {
+    alpha: {
+      c: '#000000',
+      t: '#FFFFFF',
+    },
+    mod: {
+      c: '#FFFFFF',
+      t: '#000000',
+    },
+    accent: {
+      t: '#000000',
+      c: '#FFFFFF',
     },
   },
 };
